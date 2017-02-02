@@ -1,0 +1,10 @@
+.components-location-picker {
+    height: 500px;
+    width: 100%;
+}
+.components-location-picker .head{
+	margin-left: 5px
+}
+.picked-content{
+	color:gray;
+}

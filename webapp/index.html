@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>{{title}}</title>
+    <script>
+    document.documentElement.style.fontSize = document.documentElement.clientWidth / 7.5 + 'px';
+    </script>
+    <style type="text/css">
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: cursive;
+    }
+    </style>
+    <script type="text/javascript" src="https://3gimg.qq.com/lightmap/components/geolocation/geolocation.min.js "></script>
+    <script type="text/javascript">
+var loadScript = function(url, callback) {
+    var head = document.getElementsByTagName('head')[0];
+    script = document.createElement('script');
+    script.src = url;
+    if (!callback) {
+        return;
+    }
+    script.onload = script.onreadystatechange = function() {
+        if (!this.readyState || this.readyState === 'loaded' || this.readyState === 'complete') {
+            callback();
+        }
+    };
+    head.appendChild(script);
+};
+</script>
+
+</head>
+
+<body>
+    <div id="gogo"></div>
+</body>
+
+</html>
